@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Hakoi Legal
+title: Hakoi
 ---
 
-# Hakoi Legal
+# Hakoi
 
 - [Privacy Policy](privacy-policy)
 - [Terms of Service](terms-of-service)
