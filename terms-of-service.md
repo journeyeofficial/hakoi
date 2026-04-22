@@ -13,7 +13,7 @@ title: Hakoi — Terms of Service
 
 ## 1. Introduction and Acceptance
 
-These Terms of Service ("Terms") govern your access to and use of the Hakoi mobile application and related services (collectively, the "Service") operated by Márton Forrai ("we," "us," or "our"). Hakoi is a habit-tracking application available on Android, iOS, and other platforms.
+These Terms of Service ("Terms") govern your access to and use of the Hakoi mobile application and related services (collectively, the "Service") operated by Journeye ("we," "us," or "our"). Hakoi is a habit-tracking application available on Android, iOS, and other platforms.
 
 By creating an account, downloading, installing, or otherwise using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the Service. We may update these Terms from time to time, and your continued use of the Service after any changes constitutes acceptance of the revised Terms.
 
@@ -210,7 +210,7 @@ SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES, 
 
 ## 13. Indemnification
 
-You agree to indemnify, defend, and hold harmless Márton Forrai and any affiliates, officers, agents, or contractors from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from or related to: (a) your use of the Service; (b) your violation of these Terms; (c) your violation of any rights of a third party; or (d) your Content.
+You agree to indemnify, defend, and hold harmless Putz Tímea Edit and any affiliates, officers, agents, or contractors from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from or related to: (a) your use of the Service; (b) your violation of these Terms; (c) your violation of any rights of a third party; or (d) your Content.
 
 ---
 

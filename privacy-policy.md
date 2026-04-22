@@ -13,7 +13,7 @@ title: Hakoi — Privacy Policy
 
 ## 1. Introduction
 
-This Privacy Policy describes how Márton Forrai ("we," "us," or "our") collects, uses, stores, shares, and protects your personal information when you use the Hakoi mobile application and related services (collectively, the "Service"). Hakoi is a habit-tracking application available on Android, iOS, and other platforms.
+This Privacy Policy describes how Journeye ("we," "us," or "our") collects, uses, stores, shares, and protects your personal information when you use the Hakoi mobile application and related services (collectively, the "Service"). Hakoi is a habit-tracking application available on Android, iOS, and other platforms.
 
 We are committed to protecting your privacy. Please read this Privacy Policy carefully to understand our practices regarding your data. By using the Service, you agree to the collection and use of information in accordance with this policy.
 
