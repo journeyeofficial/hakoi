@@ -268,7 +268,6 @@ endpointUrl:  'https://aehrucowapthxdmwnjwv.supabase.co/functions/v1/delete-acco
 
       const supabase = createClient(CONFIG.projectUrl, CONFIG.publishableKey, {
         auth: {
-          flowType: 'pkce',
           detectSessionInUrl: true,
           persistSession: true,
           autoRefreshToken: true,
@@ -398,10 +397,19 @@ endpointUrl:  'https://aehrucowapthxdmwnjwv.supabase.co/functions/v1/delete-acco
         }
       });
 
-      await refreshSessionView();
-      if (window.location.hash || window.location.search.includes('code=')) {
-        window.history.replaceState({}, document.title, redirectUrl);
+      // If the magic link returned a PKCE code (shouldn't happen with implicit flow,
+      // but handle it explicitly so the user sees an error rather than nothing).
+      if (window.location.search.includes('code=')) {
+        setStatus('Completing sign-in...', 'info');
+        const { error } = await supabase.auth.exchangeCodeForSession(window.location.href);
+        if (error) {
+          setStatus('Sign-in link expired or already used. Please request a new magic link.', 'error');
+        } else {
+          window.history.replaceState({}, document.title, redirectUrl);
+        }
       }
+
+      await refreshSessionView();
     </script>
   </body>
 </html>
